@@ -6,23 +6,23 @@ description: Discover our range of mobile auto enhancement services in Miami, in
 services_section_title: "What We Offer"
 
 service_items:
-  - item_icon: "fas fa-car" 
+  - item_icon: "🚗" 
     item_title: "Window Tinting"
     item_description: "Reduce heat, glare, and UV exposure with our professional window tinting. Multiple shades and types available to suit your style and needs."
     item_link: "/contact/?service=window-tinting"
-  - item_icon: "fas fa-paint-roller"
+  - item_icon: "🎨"
     item_title: "Vinyl Wraps & Accents"
     item_description: "Completely change your car's color or add custom accents with high-quality vinyl wraps. Full wraps, partial wraps, chrome delete, and more."
     item_link: "/contact/?service=vinyl-wraps"
-  - item_icon: "/static/assets/uploads/test.png" # Using placeholder for custom icon
+  - item_icon: "🖌️" 
     item_title: "Custom Body Painting"
     item_description: "From minor touch-ups to full custom paint jobs and caliper painting. We use premium paints for a durable, showroom finish."
     item_link: "/contact/?service=body-painting"
-  - item_icon: "fas fa-star"
+  - item_icon: "✨"
     item_title: "Interior Starlight Headliners"
     item_description: "Add a touch of luxury and a unique ambiance to your car's interior with a custom starlight headliner installation."
     item_link: "/contact/?service=starlight-headliner"
-  - item_icon: "fas fa-shield-alt"
+  - item_icon: "🛡️"
     item_title: "Protective Glass Coating"
     item_description: "Enhance visibility and protect your windshield and windows with our hydrophobic glass coatings. Repels rain, dirt, and makes cleaning easier."
     item_link: "/contact/?service=glass-coating"
@@ -34,4 +34,4 @@ service_items:
 
 ## Professional Styling, Mobile Convenience
 
-At **[Client's Business Name]**, we bring the workshop to you. We're equipped to handle a wide range of auto styling services at your location in Miami, ensuring minimal disruption to your day. Explore our offerings below and imagine the possibilities for your vehicle!
+At **426customs**, we bring the workshop to you. We're equipped to handle a wide range of auto styling services at your location in Miami, ensuring minimal disruption to your day. Explore our offerings below and imagine the possibilities for your vehicle!

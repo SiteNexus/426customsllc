@@ -9,15 +9,15 @@ testimonials:
   - quote: "Amazing job on my window tints! The mobile service was super convenient, and they were so professional. My car looks and feels so much cooler now in this Miami heat. Highly recommend!"
     author_name: "Maria R."
     author_info: "Miami, FL"
-    author_photo: "/static/assets/uploads/test.png"
+    author_photo: "/static/assets/uploads/test.jpg"
   - quote: "Got a full vinyl wrap and it's flawless. These guys are artists! The attention to detail is incredible. Will be back for more custom work."
     author_name: "David K."
     author_info: "South Beach, Miami"
-    # author_photo: (No photo for John)
+    author_photo: "/static/assets/uploads/test.jpg"
   - quote: "I was new to managing a website, but Decap CMS is intuitive, and the support from SiteNexus has been outstanding. Highly recommend!"
     author_name: "Emily White"
     author_info: "Founder, Bloom Florists"
-    author_photo: "/static/assets/uploads/test.png"
+    author_photo: "/static/assets/uploads/test.jpg"
 ---
 
 ## We Love Making Our Clients Happy!

@@ -2,7 +2,7 @@
 title: About [Client's Business Name] - Miami's Mobile Styling Experts
 slug: about
 layout: side-image
-side_image: /static/assets/uploads/test.png 
+side_image: /static/assets/uploads/test.jpg 
 side_image_position: left 
 description: Learn about our passion for auto styling, our commitment to quality, and our convenient mobile service in the Miami, FL area.
 ---

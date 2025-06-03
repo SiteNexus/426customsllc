@@ -1,202 +1,407 @@
-/* static/css/style.css */
+/* static/css/style.css - Dark Gray and Red Theme */
+
+/* --- Global Resets & Base Styling --- */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern sans-serif stack */
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    padding: 0 20px;
-}
-
-.site-header {
-    background: #333;
-    color: #fff;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: #0779e4 3px solid;
-}
-
-.site-header a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
+    line-height: 1.7;
+    background-color: #282c34; /* Dark gray primary background */
+    color: #e0e0e0; /* Light gray text for good contrast */
     font-size: 16px;
 }
 
+.container {
+    width: 90%; /* Slightly wider for better use of space */
+    max-width: 1140px; /* Common max-width for containers */
+    margin: auto;
+    overflow: hidden; /* Contained floats */
+    padding: 0 15px; /* Standard container padding */
+}
+
+a {
+    color: #ec7063; /* Lighter red for links */
+    text-decoration: none;
+    transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+a:hover,
+a:focus {
+    color: #ff4136; /* Brighter red on hover */
+    text-decoration: none; /* Often prefer no underline on hover for modern look */
+    opacity: 0.8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #f0f0f0; /* White/very light gray for headings */
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
+    font-weight: 600; /* Bolder headings */
+}
+
+h1 { font-size: 2.8em; border-bottom: 2px solid #e74c3c; padding-bottom: 0.3em; text-align: center; }
+h2 { font-size: 2.2em; color: #e74c3c; /* Red for H2 */ margin-top: 2em; }
+h3 { font-size: 1.8em; color: #ec7063; /* Lighter red for H3 */ }
+h4 { font-size: 1.4em; }
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 65, 54, 0), rgba(255, 65, 54, 0.75), rgba(255, 65, 54, 0));
+    margin: 2em 0;
+}
+
+/* --- Site Header --- */
+.site-header {
+    background: #333333; /* Darker shade for header */
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #e74c3c; /* Red accent border */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.site-header .container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 0.95em; /* Slightly adjusted for better fit */
+    letter-spacing: 0.5px;
+}
+
 .site-header .logo a {
-    font-size: 24px;
+    font-size: 1.8em; /* Larger logo text */
     font-weight: bold;
+    text-transform: none; /* Allow mixed case for logo */
 }
 
 .site-header .main-navigation ul {
     padding: 0;
+    margin: 0; /* Remove default margin */
     list-style: none;
-    float: right; /* Basic float for alignment */
+    display: flex; /* Align nav items horizontally */
 }
 
 .site-header .main-navigation ul li {
-    display: inline;
-    padding: 0 15px;
+    margin-left: 25px; /* Spacing between nav items */
 }
 
-.site-header .main-navigation ul li a:hover {
-    color: #0779e4;
+.site-header .main-navigation ul li a:hover,
+.site-header .main-navigation ul li a.active { /* Assuming you might add an 'active' class */
+    color: #e74c3c; /* Red for hover/active nav links */
+    border-bottom: 2px solid #e74c3c; /* Underline effect */
+    padding-bottom: 3px;
 }
 
-/* Clearfix for floated navigation */
-.site-header .container::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-
+/* --- Main Content Area --- */
 main.container {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #fff;
-    min-height: 60vh; /* Ensure footer doesn't jump up on short pages */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #3a3f47; /* Slightly lighter dark gray for main content background */
+    border-radius: 8px; /* Rounded corners for the content box */
+    margin-top: 30px; /* Space from header */
+    margin-bottom: 30px; /* Space before footer */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    min-height: 60vh;
 }
 
+article {
+    margin-bottom: 2rem; /* Space below articles */
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px; /* Slightly rounded corners for inline images */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* Subtle shadow for inline images */
+}
+
+/* --- Site Footer --- */
 .site-footer {
-    background: #333;
-    color: #fff;
+    background: #333333; /* Consistent with header */
+    color: #cccccc; /* Lighter gray for footer text */
     text-align: center;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 30px 20px;
+    margin-top: 40px;
+    border-top: 3px solid #e74c3c; /* Red accent border */
 }
 
+.site-footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* --- Hero Section Styling --- */
 .custom-hero-section {
-    /* If you want the hero section itself to not be full width of its parent */
-    /* max-width: 900px; */ /* Example: constrain the whole hero area */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    padding: 1rem 0; /* Add some padding if needed */
+    padding: 2rem 0; /* More padding for hero section */
+    margin-bottom: 2rem; /* Space after hero section */
 }
 
 .custom-hero-image {
-    /* This class is on the <img> tag */
-    max-width: 100%; /* This is what img-fluid does, ensures responsiveness */
-    height: auto;    /* This is also part of img-fluid, maintains aspect ratio */
-
-    /* OPTION 1: If you want to limit its maximum height */
-    max-height: 350px; /* Adjust this value as needed */
-    /* object-fit: cover; */ /* If using max-height, you might need object-fit to control how the image scales within the constrained box. 'cover' will fill, 'contain' will fit. */
-    /* width: auto; */ /* If max-height is set, width:auto might be needed if it was previously 100% */
-
-
-    /* OPTION 2: If you want the image to be less than 100% of its container, and centered */
-    /* display: block; */ /* Needed for margin: auto to work on an image */
-    /* width: 80%; */ /* Example: make it 80% of the .custom-hero-section width */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-
-    /* OPTION 3: If the SVG's intrinsic aspect ratio is making it too tall even when width-constrained */
-    /* You might need to control the container of the SVG, or the SVG's viewBox,
-       but typically max-height (Option 1) is the most direct CSS approach for an <img> tag.
-       If your .custom-hero-section is already constrained in width,
-       then img-fluid on .custom-hero-image should make it fit that width and scale height proportionally.
-       The SVG itself has a viewBox="0 0 1200 400", which is a 3:1 aspect ratio.
-       If its container is 900px wide, the SVG (with img-fluid) would render at 900px wide and 300px tall.
-    */
+    max-width: 100%;
+    height: auto;
+    max-height: 450px; /* Increased max-height */
+    object-fit: cover; /* Ensures image covers the area nicely if height constrained */
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    margin-bottom: 1.5rem; /* Space below hero image if content follows directly in this div */
 }
 
-article img { /* Targets all images inside an <article> tag */
-    max-width: 100%; /* Makes images responsive */
-    height: auto;    /* Maintains aspect ratio */
-    margin-top: 1rem;
+/* --- Cards (Used for Services, Testimonials, Pricing) --- */
+.card {
+    background-color: #4a505a; /* Darker card background */
+    border: 1px solid #555c66; /* Subtle border for cards */
+    color: #e0e0e0;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border-radius: 8px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1.5rem rgba(231, 76, 60, 0.2) !important; /* Reddish shadow on hover */
+}
+
+.card .card-header, .card .card-footer {
+    background-color: #40454f; /* Slightly different shade for card headers/footers */
+    border-bottom: 1px solid #555c66; /* For header */
+    border-top: 1px solid #555c66; /* For footer */
+}
+
+.card .card-title {
+    color: #ffffff; /* White for card titles */
+    font-weight: 500;
+}
+
+.card .card-subtitle, .card .text-muted {
+    color: #b0b0b0 !important; /* Lighter gray for muted text in cards */
+}
+
+.card .btn-primary {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.6rem 1.2rem;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.card .btn-primary:hover {
+    background-color: #c0392b; /* Darker red on hover */
+    border-color: #c0392b;
+}
+
+.card .btn-outline-primary {
+    border-color: #e74c3c;
+    color: #e74c3c;
+    font-weight: bold;
+    padding: 0.6rem 1.2rem;
+}
+
+.card .btn-outline-primary:hover {
+    background-color: #e74c3c;
+    color: #ffffff;
+}
+
+/* --- Services Grid Specific --- */
+.services-grid-section .card-icon i { /* Font Awesome icons */
+    color: #e74c3c !important; /* Ensure red color for FA icons */
+    font-size: 2.5rem; /* Slightly smaller than fa-3x if needed */
+}
+.services-grid-section .card-icon img {
+    max-height: 50px; /* Control size of image icons */
     margin-bottom: 1rem;
-    display: block; /* For centering with margin: auto */
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 4px; /* Optional: rounded corners */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: subtle shadow */
+}
+.services-grid-section .card-icon span { /* For text/emoji icons */
+    color: #e74c3c !important;
+    font-size: 2.5rem;
 }
 
-/* For images directly inside a paragraph, you might want different margins */
-article p > img {
-    margin-left: 0; /* Or specific alignment if floated */
-    margin-right: 0;
+
+/* --- Team Showcase Specific --- */
+.team-member-card .team-member-photo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 3px solid #e74c3c; /* Red border for team photos */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.team-member-photo-placeholder {
+    border: 3px solid #e74c3c;
+    background-color: #555c66; /* Darker placeholder background */
+}
+.team-member-social-links a {
+    margin: 0 5px; /* Spacing for social links */
 }
 
-/* static/css/style.css */
-/* ... your existing styles ... */
-
+/* --- Testimonial Wall Specific --- */
 .testimonial-card {
-    /* Add a subtle border or background if desired */
-    /* border-left: 5px solid #007bff; */ /* Example accent border */
-    /* background-color: #f9f9f9; */
+    border-left: 5px solid #e74c3c; /* Red accent border on left */
 }
-
-.testimonial-card .card-body {
-    position: relative; /* For absolute positioning of quote marks if desired */
+.testimonial-author-photo {
+    border: 3px solid #e74c3c; /* Red border for testimonial author photo */
 }
-
 .testimonial-quote {
     font-style: italic;
-    font-size: 1.1rem;
-    color: #555;
-    margin-bottom: 1rem;
-    /* Optional: Add pseudo-elements for large quote marks */
+    font-size: 1.05em; /* Slightly smaller for balance */
+    color: #d0d0d0;
+    padding: 0.5em 0;
+}
+.testimonial-card .blockquote-footer {
+    color: #f0f0f0; /* Lighter text for footer */
+}
+.testimonial-card .blockquote-footer strong {
+    color: #ffffff; /* White for author name */
 }
 
-.testimonial-quote::before {
-    /* content: '\201C'; opening quote */
-    /* font-size: 3rem; */
-    /* color: #e0e0e0; */
-    /* position: absolute; */
-    /* left: 10px; */
-    /* top: 0px; */
+/* REVISED FAQ SECTION STYLES */
+
+.faq-section .accordion-item {
+    background-color: #3a3f47; /* Dark gray background for the item itself */
+    border: 1px solid #555c66; /* Slightly lighter border than deep background */
+    margin-bottom: 0.5rem; /* Add a little space between accordion items */
+    border-radius: 0.375rem; /* Bootstrap's default is 0.375rem, can match or customize */
+    overflow: hidden; /* Helps contain any unexpected overflow from children if borders are tricky */
 }
 
-.testimonial-author-photo {
-    border: 3px solid #dee2e6; /* Example border for photo */
+.faq-section .accordion-header {
+    /* Usually no specific styling needed here if button is styled */
+    margin-top: 0; /* Remove default margin if any */
+    margin-bottom: 0;
+    background-color: transparent; 
 }
 
-.blockquote-footer strong {
-    display: block; /* Make name and title on separate lines if desired */
+.faq-section .accordion-button {
+    font-weight: bold;
+    color: #f0f0f0; /* Light text for the question */
+    background-color: #4a505a; /* Slightly different dark gray for the button/header */
+    width: 100%; /* Ensure it takes full width of its parent .accordion-header */
+    text-align: left; /* Explicitly align text to the left */
+    padding: 0.75rem 1.25rem;
+    border: none; /* Remove default button border, .accordion-item handles borders */
+    box-shadow: none; /* Remove default focus shadow if Bootstrap adds one we don't like */
+
+    /* For long words or unbreakable strings in questions */
+    overflow-wrap: break-word;
+    word-break: break-word; /* More aggressive word breaking if needed */
 }
 
-/* static/css/style.css */
-/* ... your existing styles ... */
-
-.pricing-table-section .card {
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+.faq-section .accordion-button:focus {
+    z-index: 3; /* Bootstrap default */
+    border-color: #e74c3c; /* Red focus ring color */
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(231, 76, 60, 0.5); /* Red focus ring */
 }
 
-.pricing-table-section .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+/* Styling for the button when its associated collapse panel is shown (it's NOT collapsed) */
+.faq-section .accordion-button:not(.collapsed) {
+    color: #ffffff; /* White text for active/open question */
+    background-color: #e74c3c; /* Red background for active/open question */
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125); /* Bootstrap default shadow */
 }
 
-.pricing-table-section .popular-plan {
-    /* Bootstrap already applies border-primary border-2 */
-    /* You could add a subtle background or larger shadow */
-    transform: scale(1.02); /* Slightly larger featured plan */
-    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1) !important;
+/* Styling for the accordion icon (the arrow) */
+.faq-section .accordion-button::before,
+.faq-section .accordion-button::after {
+    /* Bootstrap 5 uses an SVG background image for the icon.
+       To make it white on dark backgrounds: */
+    filter: brightness(0) invert(1);
 }
 
-.pricing-table-section .card-header {
-    padding: 1.5rem 1rem;
-    font-size: 1.25rem;
+.faq-section .accordion-button:not(.collapsed)::after {
+    /* Ensure icon is still visible when button background changes to red */
+    filter: brightness(0) invert(1); /* Remains white */
 }
 
+
+.faq-section .accordion-collapse {
+    /* No specific styling usually needed here, border is handled by .accordion-item */
+}
+
+.faq-section .accordion-body {
+    padding: 1.25rem; /* Bootstrap default padding */
+    background-color: #333840; /* Slightly different dark shade for the answer body */
+    color: #e0e0e0; /* Light gray text for the answer content */
+    line-height: 1.7; /* Ensure good readability for answer text */
+}
+
+.faq-section .accordion-body p:last-child,
+.faq-section .accordion-body ul:last-child,
+.faq-section .accordion-body ol:last-child {
+    margin-bottom: 0; /* Remove extra bottom margin from last element in accordion body */
+}
+
+/* --- Pricing Table Specific --- */
+.pricing-table-section .card-header h4 {
+    font-weight: bold;
+    color: inherit; /* Inherit from .card-header for featured/non-featured state */
+}
 .pricing-table-section .pricing-card-title {
-    font-size: 2.8rem;
+    font-size: 3rem; /* Prominent price */
     font-weight: 300;
+    color: #ffffff; /* White price text */
 }
-
 .pricing-table-section .list-unstyled li {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid #eee;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid #555c66; /* Darker border for list items */
+    color: #d0d0d0; /* Lighter text for features */
 }
 .pricing-table-section .list-unstyled li:last-child {
     border-bottom: none;
+}
+.pricing-table-section .card.border-primary { /* Featured plan */
+    border-width: 2px !important; /* Ensure Bootstrap's border-2 utility takes precedence if used */
+    box-shadow: 0 0.5rem 2rem rgba(231, 76, 60, 0.3) !important; /* More prominent red shadow */
+    transform: scale(1.03);
+}
+.pricing-table-section .card.border-primary .card-header {
+    background-color: #e74c3c; /* Red header for featured plan */
+    color: #ffffff;
+    border-bottom-color: #c0392b; /* Darker red for border */
+}
+.pricing-table-section .badge { /* For "Most Popular" badge */
+    background-color: #ffffff !important; /* White badge */
+    color: #e74c3c !important; /* Red text on badge */
+    border: 1px solid #e74c3c;
+}
+
+/* --- Utility classes for engagement --- */
+.shadow-lg { /* Bootstrap class, ensure it's impactful */
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.30)!important;
+}
+.rounded-circle { /* Bootstrap class for circular images */
+    border-radius: 50%!important;
+}
+
+/* Responsive Adjustments if needed */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    h1 { font-size: 2.2em; }
+    h2 { font-size: 1.8em; }
+    h3 { font-size: 1.5em; }
+
+    .site-header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .site-header .main-navigation ul {
+        float: none;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .site-header .main-navigation ul li {
+        display: block;
+        margin: 10px 0;
+    }
 }

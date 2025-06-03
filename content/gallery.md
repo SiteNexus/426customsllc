@@ -7,18 +7,18 @@ gallery_title: "Transformations by [Client's Business Name]"
 gallery_alt_text: "Example of auto styling work by [Client's Business Name]"
 
 gallery_images:
-  - /static/assets/uploads/test.png
-  - /static/assets/uploads/test.png
-  - /static/assets/uploads/test.png
-  - /static/assets/uploads/test.png
-  - /static/assets/uploads/test.png
-  - /static/assets/uploads/test.png
-  - /static/assets/uploads/test.png
-  - /static/assets/uploads/test.png
-  - /static/assets/uploads/test.png
-  - /static/assets/uploads/test.png
-  - /static/assets/uploads/test.png
-  - /static/assets/uploads/test.png
+  - /static/assets/uploads/test.jpg
+  - /static/assets/uploads/test.jpg
+  - /static/assets/uploads/test.jpg
+  - /static/assets/uploads/test.jpg
+  - /static/assets/uploads/test.jpg
+  - /static/assets/uploads/test.jpg
+  - /static/assets/uploads/test.jpg
+  - /static/assets/uploads/test.jpg
+  - /static/assets/uploads/test.jpg
+  - /static/assets/uploads/test.jpg
+  - /static/assets/uploads/test.jpg
+  - /static/assets/uploads/test.jpg
 ---
 
 ## See the Difference Quality Makes
@@ -26,6 +26,6 @@ gallery_images:
 We take pride in every vehicle we work on. Browse through our gallery to see the quality and variety of our mobile auto tinting and styling services. From subtle enhancements to complete transformations, we bring your vision to life.
 
 Here's an example of an inline image if needed:
-![Sample Inline Work](/static/assets/uploads/test.png)
+![Sample Inline Work](/static/assets/uploads/test.jpg)
 
 *More images and videos coming soon!*

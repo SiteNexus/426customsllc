@@ -2,13 +2,13 @@
 title: Miami's Premier Mobile Auto Tinting & Styling
 slug: index
 layout: hero
-hero_image: /static/assets/uploads/test.png 
+hero_image: /static/assets/uploads/test.jpg 
 description: Professional mobile window tinting, vinyl wraps, custom paint, and starlight headliners direct to you in Miami, FL. Quality service, amazing results.
 gallery_title: "Featured Transformations"
 gallery_images:
-  - /static/assets/uploads/test.png
-  - /static/assets/uploads/test.png
-  - /static/assets/uploads/test.png
+  - /static/assets/uploads/test.jpg
+  - /static/assets/uploads/test.jpg
+  - /static/assets/uploads/test.jpg
 ---
 
 ## Elevate Your Ride, Wherever You Are in Miami!

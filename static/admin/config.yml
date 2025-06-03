@@ -5,7 +5,7 @@ local_backend: true
 # git-gateway requires additional setup (often with Netlify Identity or similar).
 backend:
   name: github  # github, gitlab, bitbucket, or git-gateway
-  repo: SiteNexus/test-client # Replace with the actual repo path pattern or specific repo
+  repo: SiteNexus/426customsllc # Replace with the actual repo path pattern or specific repo
   branch: main # Or whatever branch Decap CMS should commit to
   site_domain: cms.netlify.com 
   # name: git-gateway

@@ -1,39 +1,37 @@
 ---
-title: ServicesGrid
+title: Our Expert Auto Styling Services
 slug: services
 layout: services-grid
-description: We offer a wide range of web solutions to help your business succeed online, from initial design to ongoing support.
-# Optional:    services_section_title: "What We Offer" 
+description: Discover our range of mobile auto enhancement services in Miami, including window tinting, vinyl wraps, custom painting, starlight headliners, and glass coating.
+services_section_title: "What We Offer"
 
 service_items:
-  - item_icon: "🛠️" # Font Awesome icon example
-    item_title: "Custom Web Design"
-    item_description: "Beautiful, modern websites tailored to your brand and business goals. We focus on user experience and responsive design."
-    item_link: "/contact/"
-  - item_icon: "🛠️" # Font Awesome icon example
-    item_title: "Web Development"
-    item_description: "Robust and scalable web development using modern technologies. From static sites to dynamic applications."
-    item_link: "/contact/"
-  - item_icon: "🛠️" # Custom SVG icon path (relative to static folder)
-    item_title: "Managed Hosting"
-    item_description: "Reliable and secure Azure-based hosting. We handle the technicalities so you can focus on your business."
-    # item_link: (No link for this one)
-  - item_icon: "🛠️"
-    item_title: "Digital Marketing Setup"
-    item_description: "Basic setup for SEO, analytics, and advice on how to get your message out to the right audience."
-    item_link: "/contact/"
-  - item_icon: "🛠️" # Emoji or simple text as icon
-    item_title: "Ongoing Support"
-    item_description: "Dedicated support and maintenance plans to keep your website running smoothly and up-to-date."
-    item_link: "/contact/"
-  - item_icon: "🛠️" # Custom PNG icon path
-    item_title: "AI Content Assist"
-    item_description: "Leverage AI to help generate engaging blog posts and website copy, saving you time and effort."
-    item_link: "/contact/"
+  - item_icon: "fas fa-car" 
+    item_title: "Window Tinting"
+    item_description: "Reduce heat, glare, and UV exposure with our professional window tinting. Multiple shades and types available to suit your style and needs."
+    item_link: "/contact/?service=window-tinting"
+  - item_icon: "fas fa-paint-roller"
+    item_title: "Vinyl Wraps & Accents"
+    item_description: "Completely change your car's color or add custom accents with high-quality vinyl wraps. Full wraps, partial wraps, chrome delete, and more."
+    item_link: "/contact/?service=vinyl-wraps"
+  - item_icon: "/static/assets/uploads/test.png" # Using placeholder for custom icon
+    item_title: "Custom Body Painting"
+    item_description: "From minor touch-ups to full custom paint jobs and caliper painting. We use premium paints for a durable, showroom finish."
+    item_link: "/contact/?service=body-painting"
+  - item_icon: "fas fa-star"
+    item_title: "Interior Starlight Headliners"
+    item_description: "Add a touch of luxury and a unique ambiance to your car's interior with a custom starlight headliner installation."
+    item_link: "/contact/?service=starlight-headliner"
+  - item_icon: "fas fa-shield-alt"
+    item_title: "Protective Glass Coating"
+    item_description: "Enhance visibility and protect your windshield and windows with our hydrophobic glass coatings. Repels rain, dirt, and makes cleaning easier."
+    item_link: "/contact/?service=glass-coating"
+  - item_icon: "🛠️" 
+    item_title: "Other Custom Styling"
+    item_description: "Have another idea for customizing your ride? Let's talk! We love unique projects."
+    item_link: "/contact/?service=custom-styling"
 ---
 
-## Power Up Your Online Presence
+## Professional Styling, Mobile Convenience
 
-At SiteNexus, we understand that a strong online presence is crucial for today's businesses. That's why we offer a comprehensive suite of services designed to meet your unique needs. Whether you're just starting out or looking to revamp your existing site, our team is here to help you succeed.
-
-Our approach is collaborative and transparent. We work closely with you to understand your vision and deliver a product that not only looks great but also performs exceptionally.
+At **[Client's Business Name]**, we bring the workshop to you. We're equipped to handle a wide range of auto styling services at your location in Miami, ensuring minimal disruption to your day. Explore our offerings below and imagine the possibilities for your vehicle!

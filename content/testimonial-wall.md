@@ -1,28 +1,25 @@
 ---
-title: Testimonials
-slug: client-testimonials
+title: What Our Miami Clients Say
+slug: reviews
 layout: testimonial-wall
-description: Hear directly from businesses like yours who have found success with SiteNexus.
-# Optional: testimonial_section_title: "Don't Just Take Our Word For It..."
+description: Read real reviews and testimonials from satisfied customers of our mobile auto tinting and styling services in Miami.
+testimonial_section_title: "Hear From Our Happy Customers"
 
 testimonials:
-  - quote: "Working with SiteNexus was a game-changer for our online presence. Our new website is fast, beautiful, and so easy to update!"
-    author_name: "Jane Doe"
-    author_info: "Owner, The Cozy Corner Cafe"
-    author_photo: "assets/test.png" # Path relative to 'static'
-  - quote: "The team delivered exactly what we needed, on time and on budget. The AI blog generator is a fantastic bonus that saves us hours every week."
-    author_name: "John Smith"
-    author_info: "Marketing Lead, Tech Solutions Inc."
+  - quote: "Amazing job on my window tints! The mobile service was super convenient, and they were so professional. My car looks and feels so much cooler now in this Miami heat. Highly recommend!"
+    author_name: "Maria R."
+    author_info: "Miami, FL"
+    author_photo: "/static/assets/uploads/test.png"
+  - quote: "Got a full vinyl wrap and it's flawless. These guys are artists! The attention to detail is incredible. Will be back for more custom work."
+    author_name: "David K."
+    author_info: "South Beach, Miami"
     # author_photo: (No photo for John)
   - quote: "I was new to managing a website, but Decap CMS is intuitive, and the support from SiteNexus has been outstanding. Highly recommend!"
     author_name: "Emily White"
     author_info: "Founder, Bloom Florists"
-    author_photo: "assets/test.png"
-  - quote: "Our old site was slow and outdated. SiteNexus gave us a modern, high-performance platform that our customers love."
-    author_name: "Michael Brown"
-    author_info: "Manager, QuickFix Auto"
+    author_photo: "/static/assets/uploads/test.png"
 ---
 
-## Hear From Our Satisfied Partners
+## We Love Making Our Clients Happy!
 
-We're proud of the relationships we build and the results we help our clients achieve. Their success is our success. Below are just a few stories from businesses who have transformed their online presence with SiteNexus.
+Building trust and delivering outstanding results is what we do best. Here’s what some of our valued clients in the Miami area have to say about their experience with **[Client's Business Name]**.

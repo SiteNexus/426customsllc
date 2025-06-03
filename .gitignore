@@ -1825,4 +1825,5 @@ terraform.tfvars
 .terraform/
 .terraform.lock.hcl
 
+_pycache__
     
